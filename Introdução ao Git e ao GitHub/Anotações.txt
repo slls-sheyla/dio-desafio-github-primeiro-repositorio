@@ -1,3 +1,42 @@
 Link para download do Git: https://git-scm.com/downloads
 
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Git X Github
+
+O Git é um software criado por Linus Torvalds para controle e gerenciamento distribuído de código.
+
+O GitHub é uma plataforma web que serve como um repositório de código que utiliza recursos do Git para que possamos centralizar nossos repositórios na Internet, fazendo com que tenhamos um portifólio de códigos e projetos que podem ser públicos ou privados.
+
+Entendendo como o Git funciona
+
+Por ser um sistema de gerenciamento de controle de versão de código/documentos, o git possui recursos avançados de monitoramento e acompanhamento de arquivos que fazem parte de um projeto.
+
+Ou seja, após ativo em um projeto, o git começa a monitorar as mudanças ocorridas neste projeto e nos mostra através de um poderoso sistema de estágios (ou fases) em que o estágio ou fase se encontram os arquivos.
+
+O ciclo de vida dos status de arquivos no Git
+
+Temos 4 estágios possíveis em que um arquivo pode estar quando faz parte de um projeto:
+
+Untracked
+
+Quando usamos o git para controlar o versionamento do nosso projeto ou mesmo ao criar um novo arquivo em um projeto já gerenciado pelo git os arquivos iniciam seu status como “untracked”. 
+Ou seja, se fossemos traduzir seria algo como “não rastreado”.
+	Isso significa que, apesar do arquivo fazer parte do projeto, ele ainda não foi adicionado ao monitoramento do git.
+
+Tracked
+
+	Quando adicionamos arquivos ao monitoramento do git, o status deste arquivo passa a ser “tracked”, ou seja, rastreado.
+	A partir de então o git passa a controlar as mudanças neste arquivo e todo o poder deste controlador de versão distribuído passa a fazer parte do seu projeto.
+	Os arquivos com status “tracked” são conhecidos como “new file” (novos arquivos).
+
+Modified
+	
+	Quando modificamos um arquivo que está sendo rastreado, seu status passa a ser “modified”, ou seja, modificado;
+	Desta forma sabemos facilmente se um arquivo não está sendo rastreado, ou está sendo rastreado ou mesmo se está sendo rastreado mas ocorreu modificações.
+
+Staged
+
+Quando um arquivo está pronto, ou seja, ele está sendo rastreado e já foi modificado e finalizado, então está pronto para ser enviado para o repositório.
+Então o status passa a ser “staged”, que seria algo como preparado.
+Os arquivos no estágio “staged” são enviados para o repositório através de commits.
